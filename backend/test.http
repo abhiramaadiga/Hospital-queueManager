@@ -1,0 +1,33 @@
+### Mild
+POST http://localhost:5000/api/patients
+Content-Type: application/json
+
+{
+  "name": "Patient Mild",
+  "age": 20,
+  "complaint": "Cold",
+  "severity": "Mild"
+}
+
+### Moderate
+POST http://localhost:5000/api/patients
+Content-Type: application/json
+
+{
+  "name": "Patient Moderate",
+  "age": 40,
+  "complaint": "Fever",
+  "severity": "Moderate"
+}
+### Get the queue
+GET http://localhost:5000/api/patients/queue
+
+###
+PUT http://localhost:5000/api/patients/serve
+
+### history
+
+GET http://localhost:5000/api/patients/history
+
+### Analytics
+GET http://localhost:5000/api/patients/analytics
