@@ -29,7 +29,7 @@ function History() {
             <tbody>
                 {history.map(p => (
                     <tr key={p._id} style={{ borderBottom: '1px solid #ddd'}}>
-                        <td style={{ padding: '10px'}}>{p.name</td>
+                        <td style={{ padding: '10px'}}>{p.name}</td>
                         <td>{p.age}</td>
                         <td>{p.complaint}</td>
                         <td>{p.severity}</td>

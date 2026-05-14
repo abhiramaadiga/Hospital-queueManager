@@ -16,5 +16,7 @@ function App() {
         <Route path="/analytics" element={<Analytics />} />
       </Routes>
     </Router>
-   )
+   );
 }
+
+export default App;
